@@ -13,5 +13,68 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
     font-size: 15px;
+    background-color: var(--Very-light-gray);
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 480px;
+}
+
+.card h2 {
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.2rem;
+}
+
+.card p {
+    color: var(--Transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    width: 70%;
+    line-height: 1.5rem;
+}
+
+.card button {
+    padding: 0.9rem 1.9rem;
+    font-family: 'Lexend Deca', sans-serif;
+    border: none;
+    border-radius: 2rem;
+}
+
+.first {
+    background-color: var(--Bright-orange);
+}
+
+.first button {
+    color: var(--Bright-orange);
+}
+
+.second {
+    background-color: var(--Dark-cyan);
+}
+
+.second button {
+    color: var(--Dark-cyan);
+}
+
+.third {
+    background-color: var(--Very-dark-cyan);
+}
+
+.third button {
+    color: var(--Very-dark-cyan);
 }
