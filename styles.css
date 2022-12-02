@@ -31,11 +31,21 @@ main {
 }
 
 .card {
-    width: 300px;
+    max-width: 300px;
     height: 480px;
     box-sizing: border-box;
     padding-left: 2.8rem;
     padding-top: 2.8rem;
+}
+
+.first {
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+.third {
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
 }
 
 .card h2 {
@@ -99,4 +109,65 @@ main {
 
 .third button {
     color: var(--Very-dark-cyan);
+}
+
+@media (max-width: 750px) {
+    .card {
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .card button {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 590px) {
+    .card {
+        padding-left: 1.6rem;
+        padding-top: 1.6rem;
+    }
+    
+    .card button {
+        margin-top: 2rem;
+    }
+
+    .card p {
+        width: 90%;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width: 520px) {
+    main {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 420px;
+    }
+
+    .first {
+        border-top-left-radius: 0.4rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0.4rem;
+    }
+    
+    .third {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0.4rem;
+        border-bottom-left-radius: 0.4rem;
+    }
+}
+
+@media (max-height: 485px) {
+    main {
+        height: auto;
+        padding: 2rem 1rem;
+    }
 }
