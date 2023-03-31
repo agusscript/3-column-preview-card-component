@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - [Fron End Mentor solution](https://www.frontendmentor.io/solutions/3-column-preview-card-component-css-Zi9Tc1Yuwo)
-- [Live site](https://agusscript.github.io/3-column-preview-card-component/)
+- [Live site](https://codepen.io/agusscript/pen/QWVRxXO)
 
 ## My process
 
